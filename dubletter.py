@@ -9,6 +9,7 @@ for num in numbers:
         counts[num] = counts[num] + 1
     else:
         counts[num] = 1
+print(counts, numbers)
 duplicates = []
 for num in counts:
     if counts[num] > 1:
